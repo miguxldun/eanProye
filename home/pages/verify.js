@@ -5,7 +5,7 @@ form.addEventListener('submit', (e) => {
     const btn = document.querySelector('#btn');
 
     // Lista de códigos válidos
-      const validCodes = [ '9128','7312','0691','9512','qwerty123']; 
+      const validCodes = [ '9128','7312','0691','9512','706090','906090']; 
 
     // Verificamos si el código ingresado está en la lista de códigos válidos
     if (!validCodes.includes(input.value)) {
